@@ -28,3 +28,9 @@ git commit -m "mensagem aqui"
 
 //histórico de comits do projeto
 git log
+
+//remover arquivo de rastreamenteo
+git rm --cached "nome do arquivo"
+
+modificação
+
