@@ -23,6 +23,8 @@ git init
 //verificar alterações de pastas e arquivos no projeto
 git status
 
+teste
+
 //adiciona todos os arquivos e pastas modificados, ao stage área
 git commit -m "mensagem aqui"
 
