@@ -1,0 +1,30 @@
+COMANDOS GIT
+
+git init: cria um novo repositório do Git, repositório local
+
+git add: adiciona as alterações à área de staging, que é como se fosse um passo antes de adicionar as alterações no repositório local
+
+git commit: adiciona as alterações que estão em staging ao repositório local
+
+git remote add origin: adiciona uma origin, ou seja o caminho para um repositório remoto
+
+git push: podemos subir o código que está no repositório local para o repositório remoto que criamos com o remote add origin
+
+git pull: podemos puxar o código que está no repositório remoto para o nosso local.
+
+
+git config --global user.name "Vanessa Villela"
+
+--------------------
+
+//inicia o git (repositório) no seu projeto
+git init
+
+//verificar alterações de pastas e arquivos no projeto
+git status
+
+//adiciona todos os arquivos e pastas modificados, ao stage área
+git commit -m "mensagem aqui"
+
+//histórico de comits do projeto
+git log
